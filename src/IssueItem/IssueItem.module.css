@@ -1,0 +1,30 @@
+.issueItem__container{
+    display:flex;
+    width:100%;
+    border:1px solid silver;
+    padding:10px;
+    height:15%;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.issueItem__container__head
+{
+    display:flex;
+    gap:10px;
+    margin:5px 0px;
+ 
+ 
+
+
+}
+
+
+.issueItem__container span{
+    color:   #656d76;
+    font-style: italic;
+    font-size: 14px;
+ 
+}
+
