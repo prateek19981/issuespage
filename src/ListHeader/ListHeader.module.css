@@ -9,5 +9,43 @@
     display:flex;
     justify-content: start;
     align-items: center;
+    display: flex;
+    justify-content: space-between;
    
+}
+
+.listHeader__container__left
+{
+    display: flex;
+    gap:10%;
+    align-items: center;
+    width:20%;
+ 
+
+}
+.listHeader__container__left_closed
+{
+    color:#656d76;
+}
+
+
+
+.listHeader__container__right ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listHeader__container__right ul > li
+{
+    display: flex;
+    gap:10px;
+    padding:10px;
+    color:#656d76;
+    cursor: pointer;
+}
+
+.listHeader__container__right ul > li:hover{
+    color: black;
 }
