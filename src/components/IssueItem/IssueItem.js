@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./IssueItem.module.css";
-import { getDays } from "../utils/getDays";
 import Label from "../label/Label";
 import { forwardRef } from "react";
+import { getDays } from "../../utils/getDays";
 
 const IssueItem = ({ details }, ref) => {
   let day = new Date(details.updated_at).getTime();

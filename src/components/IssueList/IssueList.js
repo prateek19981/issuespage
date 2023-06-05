@@ -4,6 +4,7 @@ import ListHeader from "../ListHeader/ListHeader";
 import IssueItem from "../IssueItem/IssueItem";
 import { useEffect, useState, useRef } from "react";
 import axios from "axios";
+import Filter from "../filter/Filter";
 
 const IssueList = () => {
   const [issues, setIssues] = useState([]);
@@ -45,6 +46,7 @@ const IssueList = () => {
 
   return (
     <div className={styles.list__container}>
+      <Filter />
       <ListHeader />
       {issues.map((item, index) => {
         if (index === issues.length - 1) {

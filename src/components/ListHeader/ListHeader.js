@@ -25,22 +25,22 @@ const ListHeader = () => {
       <div className={styles.listHeader__container__right}>
         <ul>
           <li>
-            <p>Author</p>
+            <p>Author ▾</p>
           </li>
           <li>
-            <p>Label</p>
+            <p>Label ▾</p>
           </li>
           <li>
-            <p>Projects</p>
+            <p>Projects ▾</p>
           </li>
           <li>
-            <p>Milestone</p>
+            <p>Milestone ▾</p>
           </li>
           <li>
-            <p>Assignee</p>
+            <p>Assignee ▾</p>
           </li>
           <li>
-            <p>Sort</p>
+            <p>Sort ▾</p>
           </li>
         </ul>
       </div>

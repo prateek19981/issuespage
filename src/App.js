@@ -1,7 +1,7 @@
 import "./App.css";
-import Header from "./header/Header";
-import IssueList from "./IssueList/IssueList";
-import Footer from "./footer/Footer";
+import Header from "./components/header/Header";
+import IssueList from "./components/IssueList/IssueList";
+import Footer from "./components/footer/Footer";
 import { useEffect, useState, useRef } from "react";
 
 function App() {

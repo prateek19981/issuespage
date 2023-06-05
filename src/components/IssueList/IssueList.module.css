@@ -1,0 +1,20 @@
+.list__container
+{
+    width:70%;
+    border-radius: 5px;
+    border: 1px solid #f6f8fa;
+    height: 80%;
+    margin: 10px 0px;
+    overflow-y: scroll;
+    scroll-behavior: auto;
+    
+ 
+
+}
+
+@media screen and (max-width:700px) {
+    .list__container{
+        width: 100%;
+    }
+    
+}
