@@ -3,7 +3,7 @@
     width:100%;
     border:1px solid silver;
     padding:10px;
-    height:15%;
+    height:fit-content;
     flex-direction: column;
     justify-content: center;
     
